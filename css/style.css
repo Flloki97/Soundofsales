@@ -1,11 +1,17 @@
 * {
     box-sizing: border-box;
   }
+
+
   body {
     margin: 0;
     min-height: 200vh;
     font-size: 0;
     font-family: Helvetica, Verdana, sans-serif;
+    background-image: url(../img/pexels-andrea-piacquadio-845451.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   nav {
     position: fixed;
