@@ -15,14 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
-    <script src="./js/global.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("8awtboEqiYo-Bx217");
-        })();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/global.js"></script>
 </head>
 </head>
 <body>
@@ -47,7 +42,7 @@
 
     <nav>
         <a href="#">
-            <img src="img/logo-sos.png" alt="">
+            <img src="img/logo-sos.png" alt="logo img">
         </a>
         <ul class="list">
           <li><a href="#">Home</a></li>
@@ -58,40 +53,86 @@
         <button class="menu">Menu</button>
       </nav>
 
-      <div class="hero">
+      <div class="hero padd-40">
         <div class="hero-content">
             <h1>Wilkomen to <br/>Sound of Sales</h1>
             <a href="#" class="lets-talk">Lets Talk</a>
         </div>
       </div>
       <div class="wave-divider"></div>
-      <div class="about-us-section">
-        <h4>Über uns</h4>
-        <div class="left-side">
-            <img src="" alt="">
-        </div>
-        <div class="right-side">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum officia necessitatibus fuga id voluptate? Architecto dicta numquam voluptas et possimus dolore exercitationem velit. Enim excepturi earum pariatur sapiente sit?</p>
+      <div class="about-us-section padd-40">
+        <h4 class="title">Über uns</h4>
+        <div class="about-uscontent">
+            <div class="left-side">
+                <img src="img/about-us.jpg" alt="Girl talking on the phone">
+            </div>
+            <div class="right-side">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum officia necessitatibus fuga id voluptate? Architecto dicta numquam voluptas et possimus dolore exercitationem velit. Enim excepturi earum pariatur sapiente sit?,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum officia necessitatibus fuga id voluptate? Architecto dicta numquam voluptas et possimus dolore exercitationem velit. Enim excepturi earum pariatur sapiente sit?</p>
+            </div>
         </div>
       </div>
       <div class="wave-divider wave-blue"></div>
-      <div class="services-section">
-        <h4>Services</h4>
+      <div class="services-section padd-40">
+        <h4 class="title">Services</h4>
         <div class="services-content">
-            <div class="div1"></div>
-            <div class="div2"></div>
-            <div class="div3"></div>
-            <div class="div4"></div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="img/support.png" alt="icon">
+                    <div class="grid-content">
+                        <h5 class="animate__animated animate__fadeInUp">Expertise</h5>
+                        <p class="animate__animated animate__fadeInUp">Our team is composed of industry experts who possess an in-depth understanding of quantitative finance and risk management. We stay ahead of industry trends and are well-versed in the unique challenges and opportunities these fields offer.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/support.png" alt="icon">
+                    <div class="grid-content">
+                        <h5 class="animate__animated animate__fadeInUp">Expertise</h5>
+                        <p class="animate__animated animate__fadeInUp">Our team is composed of industry experts who possess an in-depth understanding of quantitative finance and risk management. We stay ahead of industry trends and are well-versed in the unique challenges and opportunities these fields offer.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/support.png" alt="icon">
+                    <div class="grid-content">
+                        <h5 class="animate__animated animate__fadeInUp">Expertise</h5>
+                        <p class="animate__animated animate__fadeInUp">Our team is composed of industry experts who possess an in-depth understanding of quantitative finance and risk management. We stay ahead of industry trends and are well-versed in the unique challenges and opportunities these fields offer.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/support.png" alt="icon">
+                    <div class="grid-content">
+                        <h5 class="animate__animated animate__fadeInUp">Expertise</h5>
+                        <p class="animate__animated animate__fadeInUp">Our team is composed of industry experts who possess an in-depth understanding of quantitative finance and risk management. We stay ahead of industry trends and are well-versed in the unique challenges and opportunities these fields offer.</p>
+                    </div>
+                </div>
+              </div>
         </div>
       </div>
-      <div class="middle-page-section">
-
+      <div class="middle-page-section padd-40">
+            <h4 class="title">Über uns</h4>
+            <div class="middle-page-content">
+                <div class="left-side">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum officia necessitatibus fuga id voluptate? Architecto dicta numquam voluptas et possimus dolore exercitationem velit. Enim excepturi earum pariatur sapiente sit?,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi harum officia necessitatibus fuga id voluptate?</p>
+                </div>
+                <div class="right-side">
+                    <img src="img/about-us.jpg" alt="Girl talking on the phone">
+                </div>
+                
+            </div>
       </div>
       <div class="partners-carousel">
-
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
       </div>
       <div class="contact">
-        <h4>Kontakt</h4>
+        <h4 class="title">Kontakt</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste iure quod earum vel nobis veritatis excepturi inventore, sapiente accusamus explicabo unde maxime in temporibus, dolores est voluptas accusantium laudantium?</p>
         <div class="contact-inline">
             <div class="email-info"></div>
